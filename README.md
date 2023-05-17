@@ -42,6 +42,7 @@ https://github.com/n0ne/bookstore-test/assets/783906/70e5c761-14a5-4afe-af14-8db
 1. Remove inline styling and use `styled-components`, for example
 2. Add memoization for some components and functions
 3. Create some additional components to make the layout cleaner
-4. etc.
+4. Normal validation
+5. etc.
 
 All these actions will not greatly affect the performance of this small application, but require considerable additional time. In a large real application, all this, of course, must be done.
