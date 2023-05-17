@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
 import { useAppSelector } from '../../hooks'
 import { deleteBook, getBook } from './bookSlice'
-import { Button } from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import { BsTrash, BsFillPencilFill } from "react-icons/bs";
 
 import { useAppDispatch } from '../../hooks'
@@ -31,9 +31,17 @@ function BookRow({id}: BookRowType) {
         <Card.Header>{book.category}</Card.Header>
         <Card.Body>
             <blockquote className="blockquote mb-0">
-            <p>
-                <Link href={`/books/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>{book.name}</Link> 
-            </p>
+            <Row>
+                <Col>
+                    <p>
+                        <Link href={`/books/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>{book.name}</Link> 
+                    </p>
+                </Col>
+                <Col className="d-flex justify-content-end">
+                    {`${book.price}$`}
+                </Col>
+            </Row>
+            
             <footer className="blockquote-footer">
                 <cite>{book.description}</cite>
             </footer>
