@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "book-store-app-test",
   "scripts": {
     "dev": "next",
     "build": "next build",

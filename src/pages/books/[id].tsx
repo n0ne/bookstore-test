@@ -23,7 +23,7 @@ const BookPage = () => {
                                 Book title:
                             </Col>
                             <Col>
-                                {book.name}
+                                {book?.name ?? 'n/a'}
                             </Col>
                         </Row>
                         <Row style={{height: '40px'}}>
@@ -31,7 +31,7 @@ const BookPage = () => {
                                 Book price
                             </Col>
                             <Col>
-                                {`${book.price}$`}
+                                {book?.price ? `${book?.price}$` : 'n/a'}
                             </Col>
                         </Row>
                         <Row style={{height: '40px'}}>
@@ -39,7 +39,7 @@ const BookPage = () => {
                                 Book category
                             </Col>
                             <Col>
-                                {book.category}
+                                {book?.category ?? 'n/a'}
                             </Col>
                         </Row>
                         <Row style={{height: '40px'}}>
@@ -47,7 +47,7 @@ const BookPage = () => {
                                 Descriptipn
                             </Col>
                             <Col>
-                                {book.description}
+                                {book?.description ?? 'n/a'}
                             </Col>
                         </Row>
                     </Card.Body>
