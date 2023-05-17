@@ -7,32 +7,21 @@ A small test task, which is an emulation of a bookstore. The application display
 This application uses the following frameworks and libraries:
 
 1. Next.js
-2. 
+2. Redux/Redux Toolkit
+3. Bootstrap/react-bootstrap (sorry)
+4. React Icons
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
+### During the execution of the task, I changed its functionality a little:
 
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
+1. When you click on the "Add book" button, a modal window opens with a form for entering information about the book. Added basic form validation
+2. Book information opens on a new page
+3. Editing a book takes place on a page with a list of all books, but instead of information about the book, a form for editing appears
+4. If the list of books is empty, then a message is displayed about this.
 
-## Deploy your own
+#### To run it localy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-redux with-redux-app
-```
-
-```bash
-yarn create next-app --example with-redux with-redux-app
-```
-
-```bash
-pnpm create next-app --example with-redux with-redux-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Clone GitHub repo [Bookstore Task](https://github.com/n0ne/bookstore-test)
+2. `cd bookstore-test`
+3. `npm install`
+4. `npm run rev`
+5. Open `http://localhost:3000`
