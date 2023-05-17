@@ -23,7 +23,7 @@ This application uses the following frameworks and libraries:
 1. Clone GitHub repo [Bookstore Task](https://github.com/n0ne/bookstore-test)
 2. `cd bookstore-test`
 3. `npm install`
-4. `npm run rev`
+4. `npm run dev`
 5. Open `http://localhost:3000`
 
 
