@@ -1,4 +1,13 @@
-# Redux Toolkit TypeScript Example
+# Books store
+
+A small test task, which is an emulation of a bookstore. The application displays a list of books, it is possible to add books, change information about the book, view information about the book. This application does not use a backend, all information is stored in an array and will be lost when the page or application is reloaded.
+
+
+
+This application uses the following frameworks and libraries:
+
+1. Next.js
+2. 
 
 This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
 
