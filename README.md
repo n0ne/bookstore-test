@@ -25,3 +25,9 @@ This application uses the following frameworks and libraries:
 3. `npm install`
 4. `npm run rev`
 5. Open `http://localhost:3000`
+
+
+
+
+https://github.com/n0ne/bookstore-test/assets/783906/70e5c761-14a5-4afe-af14-8db625982866
+
