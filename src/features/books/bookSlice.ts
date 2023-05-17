@@ -37,7 +37,7 @@ const initialState: BooksState = {
         name: 'Book 3',
         price: 55,
         category: 'fiction',
-        description: 'Thi is very-very long description for very interesting book!'
+        description: 'This is very-very long description for very interesting book!'
     }
   },
   showAddBook: false
